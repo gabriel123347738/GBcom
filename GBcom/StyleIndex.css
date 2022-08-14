@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color:#2b2a33 ;
+}
+
+.corpo{
+	display:flex;
+	width: 100%;
+	flex-direction: column;
+	height: 100%;
+}
+.corpo-afasta{
+	display: flex;
+	width: 100%;
+	height: 120px;
+	/*border: solid 1px;*/
+}
+.corpo-h1{
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+.corpo-h1 h1{
+	color: white;
+	font-size: 5rem;
+	font-style: italic;
+	font-family: fantasy;
+}
+.corpo-input{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+#corpo-input-text{
+	width: 600px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	color: grey;
+	text-align: center;
+	background-color: #42414d;
+}
+#corpo-input-submit{
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+}
+.corpo-corpo{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: flex-start;
+	/*background-color: purple;*/
+	height: 400px;
+}
+.corpo-corpo-grid{
+	display: grid;
+	width: 80%;
+	justify-content: center;
+	align-items: center ;
+	height: 270px;
+	/*background-color: cadetblue;*/
+	grid-template-columns: repeat(7, 130px) ;
+	grid-template-rows: 150px 60px;
+}
+.corpo-corpo-grid img{
+	height: 100px;
+}

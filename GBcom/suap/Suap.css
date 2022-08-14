@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #656565;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	widows: 100%;
+	height: 50px;
+	/*background-color:blue ;*/
+}
+/*---------------------------*/
+.corpo{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 1000px;
+}
+/*---------------------------*/
+.corpo-left{
+	display: flex;
+	padding-top: 50px;
+	flex-direction: column;
+	align-items:center ;
+	width: 30%;
+	height: 1000px;
+	background-color: #484848;
+}
+.corpo-left-img{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	/*background-color: chartreuse;*/
+}
+.corpo-left-img img{
+	height: 40px;
+}
+.corpo-left-ul{
+	padding-top: 15px;
+	display: flex;
+	width: 90%;
+	/*background-color: navajowhite;*/
+}
+.corpo-left-ul li{
+	color: white;
+	list-style: none;
+}
+/*---------------------------*/
+.separa1{
+	display: flex;
+	flex-direction: row;
+	width: 10%;
+	height: 1000px;
+	/*border: solid 3px;*/
+}
+/*---------------------------*/
+.corpo-right{
+	display: flex;
+	background-color: ;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	height: 700px;
+}
+.corpo-right-container{
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	width: 50%;
+	height: 500px;
+	border: solid 3px;
+	border-radius: 10px;
+	border-color: white;
+}
+.corpo-right-container-img{
+	display: flex;
+	/*background-color: gainsboro;*/
+	justify-content: center;
+}
+.corpo-right-container-p{
+	display: flex;
+	padding-top: 20px;
+	/*background-color: coral;*/
+	justify-content: flex-end;
+	width: 35%;
+	color: grey;
+	font-family: cursive;
+}
+.corpo-right-container-form{
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	/*background-color: beige;*/
+}
+.corpo-right-container-form p{
+	font-family: monospace;
+	font-size: 1rem;
+}
+.corpo-right-container-form input{
+	width:260px;
+	height:25px;
+}
+.corpo-left-container-form-botao-div{
+	padding-top: 20px;
+	display: flex;
+}
+#corpo-right-container-form-botao{
+	border: solid 3px;
+	background-color: #25a25a;
+	border-radius: 20px;
+	border-color: #25a25a;
+	height: 40px;
+	color: white;
+}
+.corpo-right-container-p2{
+	display: flex;
+	padding-top: 10px;
+	padding-right:30px ;
+	/*background-color: darkviolet;*/
+	justify-content: flex-end;
+	color: #347b3e;
+}
